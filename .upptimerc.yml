@@ -1,6 +1,7 @@
 # Change these first
 owner: OpenAudioMc
 repo: status
+runner: self-hosted
 
 assignees: # Users to assign downtime issues (optional)
   - Mindgamesnl
