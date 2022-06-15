@@ -77,19 +77,17 @@
     "icon": "https://favicons.githubusercontent.com/null",
     "slug": "open-audio-mc-cdn",
     "status": "up",
-    "uptime": "3.01%",
-    "uptimeDay": "3.01%",
-    "uptimeWeek": "3.01%",
-    "uptimeMonth": "3.01%",
-    "uptimeYear": "3.01%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 518,
     "timeDay": 518,
     "timeWeek": 518,
     "timeMonth": 518,
     "timeYear": 518,
-    "dailyMinutesDown": {
-      "2022-06-15": 10
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "OpenAudioMc-Discord",
@@ -115,19 +113,17 @@
     "icon": "https://favicons.githubusercontent.com/null",
     "slug": "open-audio-mc-cache-api",
     "status": "up",
-    "uptime": "2.49%",
-    "uptimeDay": "2.49%",
-    "uptimeWeek": "2.49%",
-    "uptimeMonth": "2.49%",
-    "uptimeYear": "2.49%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 422,
     "timeDay": 422,
     "timeWeek": 422,
     "timeMonth": 422,
     "timeYear": 422,
-    "dailyMinutesDown": {
-      "2022-06-15": 10
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "OpenAudioMc-CCA-ImagineFun",
