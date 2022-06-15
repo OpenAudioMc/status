@@ -77,18 +77,18 @@
     "icon": "https://favicons.githubusercontent.com/null",
     "slug": "open-audio-mc-cdn",
     "status": "down",
-    "uptime": "5.70%",
-    "uptimeDay": "5.70%",
-    "uptimeWeek": "5.70%",
-    "uptimeMonth": "5.70%",
-    "uptimeYear": "5.70%",
+    "uptime": "4.02%",
+    "uptimeDay": "4.02%",
+    "uptimeWeek": "4.02%",
+    "uptimeMonth": "4.02%",
+    "uptimeYear": "4.02%",
     "time": 543,
     "timeDay": 543,
     "timeWeek": 543,
     "timeMonth": 543,
     "timeYear": 543,
     "dailyMinutesDown": {
-      "2022-06-15": 0
+      "2022-06-15": 1
     }
   },
   {
@@ -115,18 +115,18 @@
     "icon": "https://favicons.githubusercontent.com/null",
     "slug": "open-audio-mc-cache-api",
     "status": "down",
-    "uptime": "9.36%",
-    "uptimeDay": "9.36%",
-    "uptimeWeek": "9.36%",
-    "uptimeMonth": "9.36%",
-    "uptimeYear": "9.36%",
+    "uptime": "3.08%",
+    "uptimeDay": "3.08%",
+    "uptimeWeek": "3.08%",
+    "uptimeMonth": "3.08%",
+    "uptimeYear": "3.08%",
     "time": 303,
     "timeDay": 303,
     "timeWeek": 303,
     "timeMonth": 303,
     "timeYear": 303,
     "dailyMinutesDown": {
-      "2022-06-15": 0
+      "2022-06-15": 1
     }
   },
   {
