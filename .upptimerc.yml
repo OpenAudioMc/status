@@ -65,7 +65,7 @@ commitMessages:
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: status.openaudiomc.net
+  # cname: status.openaudiomc.net
   # themeUrl: https://raw.githubusercontent.com/OpenAudioMc/status/master/assets/oa-theme.css
   theme: night
   baseUrl: /status
