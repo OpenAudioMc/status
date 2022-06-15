@@ -51,7 +51,11 @@ status-website:
     - title: Status
       href: /
     - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+      href: https://github.com/Mindgamesnl/OpenAudioMc
+    - title: Discord
+      href: https://discord.openaudiomc.net/
+    - title: Patreon
+      href: https://patreon.com/Mindgamesnl
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
