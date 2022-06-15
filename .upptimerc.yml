@@ -75,7 +75,7 @@ status-website:
   introMessage: This data **is not** leading as we have an internal grafana instance hosted externally which triggers main notifications and metrics, but this is just a nice to have.
   navbar:
     - title: Status
-      href: /
+      href: https://status.openaudiomc.net /
     - title: GitHub
       href: https://github.com/Mindgamesnl/OpenAudioMc
     - title: Discord
