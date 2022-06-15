@@ -55,8 +55,8 @@ sites:
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: status.openaudiomc.net
-  # baseUrl: /status
+  # cname: status.openaudiomc.net
+  baseUrl: /status
   theme: night
   logoUrl: https://client.openaudiomc.net/assets/logo.png
   name: OpenAudioMc Status
