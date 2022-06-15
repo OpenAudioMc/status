@@ -35,6 +35,8 @@ sites:
     url: $DISCORDBOT_CHECK_URL
   - name: OpenAudioMc-Grafana
     url: $GRAFANA_CHECK_URL
+  - name: SnowDNS-YouTube
+    url: $SNOWDNS_YOUTUBE_CHECK_URL
   - name: OpenAudioMc-CacheAPI
     url: $CACHEAPI_CHECK_URL
     method: POST
