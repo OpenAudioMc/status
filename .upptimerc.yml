@@ -12,11 +12,16 @@ sites:
   - name: Cluster Managment Portal
     url: $MANAGMENT_PORTAL_CHECK_URL
   - name: OpenAudioMc-CDN
+    method: POST
     url: $CDN_CHECK_URL
   - name: OpenAudioMc-Discord
     url: $DISCORDBOT_CHECK_URL
   - name: OpenAudioMc-CacheAPI
     url: $CACHEAPI_CHECK_URL
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{ "channel": "oa-monit-target", "message": "pages-ping" }'
   - name: OpenAudioMc-CCA-ImagineFun
     url: $CRCA_CHECK_URL
   - name: OpenAudioMc-CEU-Anouk
