@@ -14,7 +14,7 @@ sites:
   - name: OpenAudioMc-CDN
     method: POST
     url: $CDN_CHECK_URL
-  - name: OpenAudioMc-Discord
+  - name: OpenAudioMc-DiscordBot
     url: $DISCORDBOT_CHECK_URL
   - name: OpenAudioMc-CacheAPI
     url: $CACHEAPI_CHECK_URL
