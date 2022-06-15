@@ -3,6 +3,15 @@ owner: OpenAudioMc
 repo: status
 runner: self-hosted
 
+workflowSchedule:
+  graphs: "5 */1 * * *"
+  responseTime: "1 */1 * * *"
+  staticSite: "10 */1 * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "0 3 * * *"
+  uptime: "*/2 * * * *"
+
 assignees: # Users to assign downtime issues (optional)
   - Mindgamesnl
 
