@@ -2,6 +2,9 @@
 owner: OpenAudioMc
 repo: status
 
+assignees: # Users to assign downtime issues (optional)
+  - Mindgamesnl
+
 sites:
   - name: OpenAudioMc-Client
     url: $CLIENT_CHECK_URL
