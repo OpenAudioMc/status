@@ -66,7 +66,7 @@ status-website:
   # cname: status.openaudiomc.net
   # themeUrl: https://raw.githubusercontent.com/OpenAudioMc/status/master/assets/oa-theme.css
   theme: night
-  # baseUrl: /status
+  baseUrl: /status
   logoUrl: https://client.openaudiomc.net/assets/logo.png
   name: OpenAudioMc Status
   introTitle: "**OpenAudioMc Status** Is an automated platform polling server status, and opening issues when shit goes haywire."
