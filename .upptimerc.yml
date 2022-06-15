@@ -42,6 +42,7 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   # cname: openaudiomc.github.io
   baseUrl: /status
+  theme: night
   logoUrl: https://client.openaudiomc.net/assets/logo.png
   name: OpenAudioMc Status
   introTitle: "**OpenAudioMc Status** Is an automated platform polling server status, and opening issues when shit goes haywire."
