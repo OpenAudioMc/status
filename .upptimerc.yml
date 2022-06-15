@@ -22,6 +22,10 @@ sites:
     url: $DOCPROXY_CHECK_URL
   - name: Craftmend-Accounts
     url: $ACCOUNT_API_CHECK_URL
+  - name: OpenAudioMc-SessionAPI
+    url: $SESSION_SERVER_CHECK_URL
+  - name: OpenAudioMc-MediaAPI
+    url: $MEDIA_CHECK_URL
   - name: Cluster Managment Portal
     url: $MANAGMENT_PORTAL_CHECK_URL
   - name: OpenAudioMc-CDN
