@@ -3,24 +3,44 @@ owner: upptime # Your GitHub organization or username, where this repository liv
 repo: upptime # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: OpenAudioMc-Client
+    url: $CLIENT_CHECK_URL
+  - name: OpenAudioMc-DocProxy
+    url: $DOCPROXY_CHECK_URL
+  - name: Craftmend-Accounts
+    url: $ACCOUNT_API_CHECK_URL
+  - name: Cluster Managment Portal
+    url: $MANAGMENT_PORTAL_CHECK_URL
+  - name: OpenAudioMc-CDN
+    url: $CDN_CHECK_URL
+  - name: OpenAudioMc-Discord
+    url: $DISCORDBOT_CHECK_URL
+  - name: OpenAudioMc-CacheAPI
+    url: $CACHEAPI_CHECK_URL
+  - name: OpenAudioMc-CCA-ImagineFun
+    url: $CRCA_CHECK_URL
+  - name: OpenAudioMc-CEU-Anouk
+    url: $CEU_ANOUK_CHECK_URL
+  - name: OpenAudioMc-CEU-Paulo
+    url: $CEU_PAULO_CHECK_URL
+  - name: OpenAudioMc-CEU-Ben
+    url: $CEU_BEN_CHECK_URL
+  - name: OpenAudioMc-CEU-Winter
+    url: $CEU_WINTER_CHECK_URL
+  - name: OpenAudioMc-CEU-Playground
+    url: $CEU_PLAYGROUND_CHECK_URL
+  - name: OpenAudioMc-CEU-Spring
+    url: $CEU_SPRING_CHECK_URL
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  # cname: openaudiomc.github.io
+  baseUrl: /status
+  logoUrl: https://client.openaudiomc.net/assets/logo.png
+  name: OpenAudioMc Status
+  introTitle: "**OpenAudioMc Status** Is an automated platform polling server status, and opening issues when shit goes haywire."
+  introMessage: This data **is not** leading as we have an internal grafana instance hosted externally which triggers main notifications and metrics, but this is just a nice to have.
   navbar:
     - title: Status
       href: /
