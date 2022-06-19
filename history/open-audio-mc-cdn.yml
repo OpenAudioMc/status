@@ -1,7 +1,7 @@
 url: $CDN_CHECK_URL
 status: up
 code: 200
-responseTime: 36
-lastUpdated: 2022-06-19T07:29:00.503Z
+responseTime: 28
+lastUpdated: 2022-06-19T07:40:22.953Z
 startTime: Wed Jun 15 2022 11:30:54 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
