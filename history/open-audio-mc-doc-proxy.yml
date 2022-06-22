@@ -1,7 +1,7 @@
 url: $DOCPROXY_CHECK_URL
 status: up
 code: 200
-responseTime: 180
-lastUpdated: 2022-06-22T12:35:59.995Z
+responseTime: 305
+lastUpdated: 2022-06-22T13:21:34.320Z
 startTime: Wed Jun 15 2022 11:30:51 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
