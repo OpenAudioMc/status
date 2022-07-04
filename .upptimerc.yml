@@ -1,7 +1,6 @@
 # Change these first
 owner: OpenAudioMc
 repo: status
-# runner: self-hosted
 
 workflowSchedule:
   graphs: "5 */1 * * *"
