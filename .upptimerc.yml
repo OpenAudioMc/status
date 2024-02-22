@@ -1,0 +1,71 @@
+# Change these first
+owner: OpenAudioMc
+repo: status
+
+workflowSchedule:
+  graphs: "5 */1 * * *"
+  responseTime: "* */1 * * *"
+  staticSite: "10 */1 * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "0 3 * * *"
+  uptime: "*/6 * * * *"
+
+assignees: # Users to assign downtime issues (optional)
+  - Mindgamesnl
+
+sites:
+  - name: EU_NORTH_1
+    url: $EU_NORTH_1
+  - name: EU_WEST_2
+    url: $EU_WEST_2
+  - name: EU_WEST_3
+    url: $EU_WEST_3
+  - name: US_EAST_1
+    url: $US_EAST_1
+  - name: OpenAudioMc-Client
+    url: $CLIENT_CHECK_URL
+  - name: Craftmend-Accounts
+    url: $ACCOUNT_API_CHECK_URL
+  - name: OpenAudioMc-SessionAPI
+    url: $SESSION_SERVER_CHECK_URL
+  - name: Cluster Managment Portal
+    url: $MANAGMENT_PORTAL_CHECK_URL
+  - name: OpenAudioMc-UserContent
+    url: $CDN_CHECK_URL
+  - name: SnowDNS-YouTube
+    url: $SNOWDNS_YOUTUBE_CHECK_URL
+  - name: OpenAudioMc-CacheAPI
+    url: $CACHEAPI_CHECK_URL
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{ "channel": "oa-monit-target", "message": "pages-ping" }'
+
+commitMessages:
+  commitAuthorName: "OpenAudioMc-Bot"
+  commitAuthorEmail: "mats@ikeasupport.com"
+
+status-website:
+  # Add your custom domain name, or remove the `cname` line if you don't have a domain
+  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
+  # cname: status.openaudiomc.net
+  # themeUrl: https://raw.githubusercontent.com/OpenAudioMc/status/master/assets/oa-theme.css
+  theme: night
+  baseUrl: /status
+  logoUrl: https://client.openaudiomc.net/assets/logo.png
+  name: OpenAudioMc Status
+  introTitle: "**OpenAudioMc Status** Is an automated platform polling server status, and opening issues when shit goes haywire."
+  introMessage: This data **is not** leading as we have an internal grafana instance hosted externally which triggers main notifications and metrics, but this is just a nice to have.
+  navbar:
+    - title: Status
+      href: https://status.openaudiomc.net/
+    - title: GitHub
+      href: https://github.com/Mindgamesnl/OpenAudioMc
+    - title: Discord
+      href: https://discord.openaudiomc.net/
+    - title: Patreon
+      href: https://patreon.com/Mindgamesnl
+
+# Upptime also supports notifications, assigning issues, and more
+# See https://upptime.js.org/docs/configuration
