@@ -1,7 +1,7 @@
 url: $CACHEAPI_CHECK_URL
 status: up
 code: 200
-responseTime: 306
-lastUpdated: 2024-02-23T14:16:30.613Z
+responseTime: 293
+lastUpdated: 2024-02-23T14:27:29.538Z
 startTime: 2022-06-15T11:30:59.000Z
 generator: Upptime <https://github.com/upptime/upptime>
