@@ -1,7 +1,7 @@
 url: $ACCOUNT_API_CHECK_URL
 status: up
 code: 200
-responseTime: 443
-lastUpdated: 2024-02-24T21:31:01.832Z
+responseTime: 653
+lastUpdated: 2024-02-24T21:40:23.195Z
 startTime: 2022-06-15T11:30:52.000Z
 generator: Upptime <https://github.com/upptime/upptime>
