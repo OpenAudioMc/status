@@ -1,7 +1,7 @@
 url: $MANAGMENT_PORTAL_CHECK_URL
 status: up
 code: 200
-responseTime: 441
-lastUpdated: 2024-02-27T15:57:18.454Z
+responseTime: 435
+lastUpdated: 2024-02-27T16:19:25.696Z
 startTime: 2022-06-15T11:30:53.000Z
 generator: Upptime <https://github.com/upptime/upptime>
