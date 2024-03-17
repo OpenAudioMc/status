@@ -1,7 +1,7 @@
 url: $SNOWDNS_YOUTUBE_CHECK_URL
 status: up
 code: 200
-responseTime: 663
-lastUpdated: 2024-03-17T07:58:11.144Z
+responseTime: 425
+lastUpdated: 2024-03-17T08:17:46.885Z
 startTime: 2022-06-15T20:10:57.000Z
 generator: Upptime <https://github.com/upptime/upptime>
