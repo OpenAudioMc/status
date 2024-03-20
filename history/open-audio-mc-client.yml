@@ -1,7 +1,7 @@
 url: $CLIENT_CHECK_URL
 status: up
 code: 200
-responseTime: 151
-lastUpdated: 2024-03-20T07:59:17.833Z
+responseTime: 121
+lastUpdated: 2024-03-20T08:31:05.915Z
 startTime: 2022-06-15T11:30:49.000Z
 generator: Upptime <https://github.com/upptime/upptime>
