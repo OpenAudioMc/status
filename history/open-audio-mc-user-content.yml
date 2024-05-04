@@ -1,7 +1,7 @@
 url: $CDN_CHECK_URL
 status: down
 code: 404
-responseTime: 245
-lastUpdated: 2024-05-04T07:36:54.165Z
+responseTime: 172
+lastUpdated: 2024-05-04T07:46:08.715Z
 startTime: 2024-02-22T00:49:16.694Z
 generator: Upptime <https://github.com/upptime/upptime>
