@@ -1,7 +1,7 @@
 url: $MANAGMENT_PORTAL_CHECK_URL
 status: down
 code: 502
-responseTime: 3759
-lastUpdated: 2024-06-20T17:46:25.889Z
+responseTime: 3525
+lastUpdated: 2024-06-20T17:55:54.726Z
 startTime: 2022-06-15T11:30:53.000Z
 generator: Upptime <https://github.com/upptime/upptime>
