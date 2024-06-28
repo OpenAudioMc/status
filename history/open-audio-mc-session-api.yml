@@ -1,7 +1,7 @@
 url: $SESSION_SERVER_CHECK_URL
 status: up
 code: 200
-responseTime: 583
-lastUpdated: 2024-06-28T09:41:41.661Z
+responseTime: 439
+lastUpdated: 2024-06-28T09:51:03.848Z
 startTime: 2022-06-15T16:05:31.000Z
 generator: Upptime <https://github.com/upptime/upptime>
